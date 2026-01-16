@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The Evolution X Project
+# Copyright (C) The Evolution X Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -16,7 +16,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/google/faceunlock/overlay
 # Runtime resource overlays
 PRODUCT_PACKAGES += \
     FaceEnrollOverlay \
-    FaceEnrollSettingsOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
